@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="heading">
+                <div class="clock">
+                    <img src="./clock.png" alt="">
+                </div>
+                <div class="comment">
+                    <p>the message and image will change according to time</p>
+                </div>
+            </div>
+            <div class="time">
+                <div>
+                    <img src="./sun.png" alt="">
+                    <label for="Set wake up time"> Set wake up time </label>
+                    <input type="time" id="appt" name="appt" min="06:00AM" max="00:59pm" required>
+                </div><br>
+                <div class="vl"></div>
+                <div>
+                    <img src="./pic.png" alt="">
+                    <label for="Set lunch time"> Set lunch time</label>
+                    <input type="time" id="appt" name="appt" min="06:00AM" max="00:59pm" required>
+                </div><br>
+                <div class="vl"></div>
+                <div>
+                    <img src="./nap.png" alt="">
+                    <label for="Set nap time"> Set nap time</label>
+                    <input type="time" id="appt" name="appt" min="06:00AM" max="00:59pm" required>
+                </div><br>
+                <div class="vl"></div>
+                <div>
+                    <img src="./nap.png" alt="">
+                    <label for="Set night time"> Set night time</label>
+                    <input type="time" id="appt" name="appt" min="06:00AM" max="00:59pm" required>
+                </div>
+            </div>
+            <div class="message">
+                <h1>good morning !! wake up !!</h1>
+            </div>
+            <div class="footer">
+                <div class="leftfooter">
+                    <h3>set Alarm</h3>
+                </div>
+                <div class="rightfooter">
+                    <p>wake up time : 10AM - 11AM <br> lunch time : 12PM - 1PM <br>
+                        nap time : 4PM - 5PM <br> night time : 8PM - 9PM</p>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="maintime" >
+                <label for="time">Time</label>
+                <div class="hour">
+                    <p>04 hours</p>
+                </div>
+                <p style="color: #e23cf5; font-size:30px">:</p>
+                <div class="hour">
+                    <p>00 mins</p>
+                </div>
+                <p style="color: #e23cf5; font-size:30px">:</p>
+                <div class="hour">
+                    <p>01 sec</p>
+                </div>
+                <p style="color: #e23cf5; font-size:30px">:</p>
+                <div id="hours">
+                    <p>PM</p>
+                </div>
+            </div>
+            <div class=" message2">
+                <h1>stop yawning, gets some tea.. it's just evening!!!</h1>
+            </div>
+            <div class="morningpic">
+                <img src="./tea.png" alt="">
+            </div>
+
+        </div>
+    </div>
+    <div class="nextpage">
+        <a href="./index.html"><i class="fa-solid fa-house"></i></a>
+        <a href="./index2.html"> < </a>
+        <a href="#">3 of 5 </next></a>
+        <a href="./index4.html"> > </a>
+    </div>
+
+</body>
+
+</html>
